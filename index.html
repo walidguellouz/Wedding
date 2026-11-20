@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="black">
+<meta name="description" content="Fadhel & Houda vous invitent à prolonger la magie au Velvet Restaurant à Hammamet. Confirmez votre présence à leur After Wedding Party.">
+<title>After Wedding Party — Fadhel & Houda</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Manrope:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+
+<header class="nav">
+  <a class="logo" href="#home">F &amp; H</a>
+  <nav>
+    <a href="#story">Notre histoire</a>
+    <a href="#details">La soirée</a>
+    <a href="#rsvp">RSVP</a>
+  </nav>
+  <a class="btn btn-small" href="#rsvp">Répondre</a>
+</header>
+
+<main>
+<section class="hero">
+  <p class="kicker">Une nuit à part · Hammamet</p>
+  <h1>AFTER WEDDING <em>PARTY</em> ✳</h1>
+  <p class="names">Fadhel &amp; Houda</p>
+  <p class="tagline">The wedding was just the beginning…<br>Let’s keep the celebration going!</p>
+  <p class="lead">Une soirée pour prolonger la magie, partager la joie,<br>la musique et les beaux moments — ensemble.</p>
+  <div class="cta-row">
+    <a class="btn" href="#rsvp">Confirmer ma présence</a>
+    <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Velvet+Restaurant+Hammamet" target="_blank" rel="noopener">Velvet Restaurant — Hammamet ↗</a>
+  </div>
+  <a class="scroll" href="#story">Défiler pour découvrir <span>01 — 03</span></a>
+</section>
+
+<section id="story" class="story">
+  <div class="story-text">
+    <p class="kicker">01 Notre histoire, encore</p>
+    <p class="pre">Après le oui,</p>
+    <h2>la fête continue.</h2>
+    <p>The wedding was just the beginning… Let’s keep the celebration going! ❤️</p>
+    <p>Fadhel &amp; Houda vous invitent à prolonger la magie et à partager avec eux une soirée festive, pleine de joie, de musique et de bons moments.</p>
+    <a class="btn" href="#details">Découvrir la soirée</a>
+  </div>
+  <p class="quote">Des souvenirs à partager<br><strong>et de nouveaux à créer.</strong></p>
+  <p class="anim">Animations <strong>Walid</strong></p>
+</section>
+
+<section id="details" class="details">
+  <p class="kicker">02 Tout ce qu’il faut savoir</p>
+  <h2>Une belle nuit <em>vous attend.</em></h2>
+  <p class="lead">Le bon endroit, les bonnes personnes,<br>et une seule chose à faire : profiter.</p>
+  <div class="cards">
+    <article>
+      <p class="label">01 / Le lieu</p>
+      <h3>Velvet Restaurant</h3>
+      <p>Hammamet, Tunisie</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=Velvet+Restaurant+Hammamet" target="_blank" rel="noopener">Ouvrir l’itinéraire</a>
+    </article>
+    <article>
+      <p class="label">02 / L’ambiance</p>
+      <h3>La nuit en musique</h3>
+      <p>Une soirée festive, de la musique et des animations signées Walid.</p>
+      <p class="muted">Animations — <em>Walid</em></p>
+    </article>
+    <article>
+      <p class="label">03 / Pour la nuit · 120 DT / nuit</p>
+      <h3>Chambre double</h3>
+      <p>Des chambres doubles au tarif préférentiel de 120 DT par nuit, réservées à nos invités.</p>
+      <a href="#rsvp">Demander une chambre</a>
+      <p class="muted">Pour bénéficier de l’offre, sélectionnez « Chambre double » dans le formulaire et précisez le nom de la personne qui partagera votre chambre.</p>
+    </article>
+  </div>
+</section>
+
+<section id="rsvp" class="rsvp">
+  <p class="kicker">03 On garde une place pour vous ?</p>
+  <p class="pre">Le plus beau cadeau,</p>
+  <h2>c’est votre <em>présence.</em></h2>
+  <p>Merci de bien vouloir confirmer votre présence afin de nous permettre de mieux organiser cette soirée. 🥂</p>
+  <p class="muted">Afin de préserver l'intimité de cette célébration, nous vous remercions de garder cette invitation à titre personnel.</p>
+
+  <form id="rsvp-form" method="post">
+    <!-- Champ anti-spam (site web) -->
+    <label class="hp" aria-hidden="true">Site web <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+
+    <label>Nom et prénom *
+      <input type="text" name="name" maxlength="200" required>
+    </label>
+
+    <fieldset>
+      <legend>Serez-vous parmi nous ? *</legend>
+      <label class="choice"><input type="radio" name="attending" value="oui" required> Je serai présent(e) 🥂</label>
+      <label class="choice"><input type="radio" name="attending" value="non"> Malheureusement absent(e)</label>
+    </fieldset>
+
+    <label>Nombre de personnes (vous compris·e) *
+      <select name="guests" required>
+        <option>1 personne</option><option>2 personnes</option><option>3 personnes</option><option>4 personnes</option>
+      </select>
+    </label>
+
+    <label>Hébergement *
+      <select name="lodging" required>
+        <option>Pas besoin d’hébergement</option>
+        <option>Chambre double (120 DT / nuit — tarif préférentiel invités)</option>
+        <option>À définir / me contacter</option>
+      </select>
+    </label>
+
+    <label>Un petit mot pour les mariés (facultatif)
+      <textarea name="message" rows="4" maxlength="5000"></textarea>
+    </label>
+
+    <button class="btn" type="submit">Envoyer ma réponse</button>
+    <p class="muted small">Vos informations sont utilisées uniquement pour organiser la soirée.</p>
+    <p id="form-status" role="status"></p>
+  </form>
+</section>
+
+<section class="memories" aria-labelledby="memories-title">
+  <p class="kicker">Quelques souvenirs</p>
+  <h2 id="memories-title">Des moments <em>à deux.</em></h2>
+  <div class="gallery">
+    <figure><img src="photos/WhatsApp Image 2026-11-19 at 21.00.23.jpeg" alt="Fadhel et Houda avec Pequito au Studio 54" loading="lazy"><figcaption>La nuit nous appartient</figcaption></figure>
+    <figure><img src="photos/WhatsApp Image 2026-11-19 at 21.00.22 (2).jpeg" alt="Fadhel et Houda partagent un moment autour de leur gâteau" loading="lazy"><figcaption>Un doux souvenir</figcaption></figure>
+    <figure><img src="photos/WhatsApp Image 2026-11-19 at 21.00.22 (1).jpeg" alt="Fadhel et Houda souriants, élégants pour une soirée" loading="lazy"><figcaption>Élégance à deux</figcaption></figure>
+    <figure><img src="photos/WhatsApp Image 2026-11-19 at 21.00.23 (2).jpeg" alt="Fadhel et Houda sous les lumières de la nuit" loading="lazy"><figcaption>Sous les lumières</figcaption></figure>
+    <figure><img src="photos/WhatsApp Image 2026-11-19 at 21.00.22.jpeg" alt="Fadhel et Houda souriants pour un selfie" loading="lazy"><figcaption>Ensemble, tout simplement</figcaption></figure>
+    <figure><img src="photos/WhatsApp Image 2026-11-19 at 21.00.23 (1).jpeg" alt="Portrait de Houda" loading="lazy"><figcaption>Houda</figcaption></figure>
+    <figure><img src="photos/WhatsApp Image 2026-11-19 at 21.00.23 (3).jpeg" alt="Portrait de Fadhel" loading="lazy"><figcaption>Fadhel</figcaption></figure>
+    <figure><img src="photos/WhatsApp Image 2026-11-19 at 21.00.23 (4).jpeg" alt="Houda avec son chien Pequito" loading="lazy"><figcaption>Pequito</figcaption></figure>
+  </div>
+</section>
+
+<section class="closing">
+  <p class="star">✳</p>
+  <p>On compte sur vous pour faire de cette nuit</p>
+  <h2>un moment <em>inoubliable.</em></h2>
+  <p class="lead">Let’s celebrate love, one more time! ✨</p>
+  <a class="btn" href="#rsvp">Je confirme ma présence</a>
+</section>
+</main>
+
+<footer>
+  <a class="logo" href="#home">F &amp; H</a>
+  <p>Fadhel &amp; Houda — After Wedding Party<br>Velvet Restaurant, Hammamet</p>
+  <a href="#home">Retour en haut ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
