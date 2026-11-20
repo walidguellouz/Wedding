@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: wedding-fadhel-houda
+    runtime: static
+    buildCommand: echo "No build required"
+    staticPublishPath: .
