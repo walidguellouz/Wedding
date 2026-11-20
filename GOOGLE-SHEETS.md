@@ -3,7 +3,8 @@
 Le formulaire envoie les réponses à un service Google Apps Script. Après l'envoi,
 une page Google confirme l'enregistrement ou indique une erreur. La feuille
 reçoit les réponses dans un nouvel onglet « Réponses RSVP », sans modifier les
-autres onglets.
+autres onglets. Les noms des invités supplémentaires sont enregistrés dans une
+colonne dédiée ; les réponses précédentes restent inchangées.
 
 1. Connectez-vous au compte propriétaire de la feuille Google Sheets indiquée.
 2. Dans cette feuille, ouvrez **Extensions > Apps Script**.
